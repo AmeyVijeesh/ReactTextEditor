@@ -1,0 +1,271 @@
+.editor-container {
+  height: 75vh;
+}
+
+.toolbar {
+  width: 100%;
+  height: 2.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+.toolbar2 {
+  width: 100%;
+  height: 2.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+
+/* Your existing styles */
+
+/* Your existing styles */
+
+.funcBtn {
+  margin: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 7px;
+  height: 25px;
+  width: 30px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 5px;
+  cursor: pointer;
+}
+
+.funcBtn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menuInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 7px 0 7px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.find-replace {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.find-replaceInput {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 20px;
+  width: 125px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.find-replaceBtn {
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.find-replaceBtn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+}
+
+.modal {
+  font-size: 12px;
+  border: 1px solid black;
+  padding: 5%;
+  border-radius: 5px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.saveAsBtn {
+  margin: 2%;
+  font-size: 1rem;
+  border: 1px solid black;
+  padding: 10px;
+  width: 15vh;
+  text-align: center;
+}
+
+.saveAsBtn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.mdlBtn {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+}
+
+.mdlBtn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.topBtn {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.topBtn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid black;
+}
+
+.ctrCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .toolbar {
+    flex-direction: column;
+    margin-top: 25%;
+    height: auto;
+  }
+  .menuInfo {
+    padding: 0;
+    margin: 10px;
+    height: 1.5rem;
+    border: 0;
+  }
+
+  .find-replace {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .toolbar2 {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .toolbar > * {
+    margin: 5px 0;
+  }
+}

@@ -2,6 +2,9 @@
 
 This is a rich text editor built using React and Quill.js. It allows users to perform basic text editing operations such as typing, formatting, adding images/videos, etc.
 
+![Screenshot 2024-04-09 at 9 06 44 PM](https://github.com/AmeyVijeesh/ReactTextEditor/assets/74102654/98f6914f-6d41-4269-915d-101f4f557d34)
+
+
 ## Features
 
 - **Text Editing:** Edit text with basic formatting options.

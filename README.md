@@ -10,6 +10,8 @@ This is a rich text editor built using React and Quill.js. It allows users to pe
 - **Text Editing:** Edit text with basic formatting options.
 - **Save:** Save the edited text locally or on a server.
 - **Responsive:** Works well on desktop and mobile devices.
+- **Add images/videos/other data** Add compatible data.
+- **Open files** Open .docx, .txt, .json, or any other file.
 
 ## Installation
 
